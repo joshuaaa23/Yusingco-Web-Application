@@ -1,0 +1,50 @@
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: hsl(16, 28%, 92%); 
+} 
+
+.navbar { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 40px; /* Increased side padding */ 
+    background-color: white; 
+    box-shadow: 0 2px 8px hsla(19, 64%, 24%, 1); 
+} 
+
+.logo img { 
+    height: 40px; 
+} 
+
+.nav-links { 
+    display: flex; 
+    gap: 20px; 
+} 
+
+.nav-link { 
+    text-decoration: none; 
+    color: black; 
+    position: relative; 
+    font-size: 18px;  
+} 
+
+.nav_buttons{
+    display: flex; 
+    gap: 5px; 
+}
+
+.nav_buttons a { 
+    color: hsl(19, 16%, 15%); 
+    font-weight: 500; 
+    transition: color .4s; 
+    text-decoration: none; 
+}
+
+.nav_buttons a:hover { 
+    color: hsl(19, 16%, 15%); 
+}
+
+.icon { 
+    font-size: 32px; 
+}
